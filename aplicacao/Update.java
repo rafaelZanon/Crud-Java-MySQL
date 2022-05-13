@@ -10,11 +10,17 @@ public class Update {
         Cliente cliente = new Cliente();
         Cliente c1 = new Cliente();
 
-        c1.setNome("Geraldo Zanon");
-        c1.setIdade(50);
-        c1.setCep("13063020");
-        c1.setNumeroCasa(1088);
-        c1.setComplemento("Quinta do marquês");
+        //digite seu nome para o update
+        c1.setNome("");
+        //digite sua idade
+        c1.setIdade(00);
+        //digite seu cep
+        c1.setCep("00000000");
+        //digite o numero da sua casa
+        c1.setNumeroCasa(0000);
+        //complemento
+        c1.setComplemento("");
+        //digite o id que voce quer dar update
         c1.setId(4);
 
         clienteDAO.update(c1);
