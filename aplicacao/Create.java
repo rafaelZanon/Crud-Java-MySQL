@@ -11,10 +11,12 @@ public class Create {
 
         Cliente cliente = new Cliente();
 
-        cliente.setNome("Tania Zanon");
-        cliente.setIdade(49);
-        cliente.setCep("13063020");
-        cliente.setNumeroCasa(1088);
+        cliente.setNome("Rafael Zanon");
+        cliente.setIdade(18);
+        //digite seu cep aqui
+        cliente.setCep("00000000");
+        //digite o seu numero da casa
+        cliente.setNumeroCasa(0000);
         cliente.setComplemento("");
 
         clienteDAO.save(cliente);
