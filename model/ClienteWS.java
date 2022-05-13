@@ -9,6 +9,9 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+//OBSERVAÇÃO!!!
+/*****ESSA CLASSE NÃO FOI CRIADA POR MIM********/
+/********CLASSE CRIADA PELO MEU PROFESSOR ANDRE*******/
 public class ClienteWS
 {
     public static Object getObjeto (Class tipoObjetoRetorno,
