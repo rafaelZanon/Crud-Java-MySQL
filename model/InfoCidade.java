@@ -1,5 +1,9 @@
 package br.com.cliente.aplicacao.cliente.model;
 
+//OBSERVAÇÃO!!!
+/*****ESSA CLASSE NÃO FOI CRIADA POR MIM********/
+/********CLASSE CRIADA PELO MEU PROFESSOR ANDRE*******/
+
 public class InfoCidade implements Cloneable {
     private String codigo_ibge;
 
