@@ -203,7 +203,7 @@ public class ClienteDAO {
                 }
 
                 if (conn != null) {
-                    pstm.close();
+                    conn.close();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
